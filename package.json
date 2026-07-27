@@ -2,7 +2,7 @@
   "name": "open-ai-ugc",
   "version": "0.1.0",
   "private": true,
-  "description": "Open AI UGC — an open-source alternative to Arcads and MakeUGC for generating AI UGC video ads with realistic actors, scripts, and voiceovers.",
+  "description": "Open AI UGC \u2014 an open-source alternative to Arcads and MakeUGC for generating AI UGC video ads with realistic actors, scripts, and voiceovers.",
   "keywords": [
     "ai-ugc",
     "ugc-ads",
@@ -23,9 +23,9 @@
     "saas-template"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && prisma generate && next build",
+    "start": "node init && next start",
     "lint": "eslint",
     "postinstall": "prisma generate"
   },
